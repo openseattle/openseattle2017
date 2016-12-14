@@ -1,0 +1,15 @@
+{
+  "name": "openseattle2017",
+  "version": "1.0.0",
+  "description": "Let's get ready for the next year! We're [recruiting lead volunteer organizers for Open Seattle in 2017](http://openseattle.org/2016/11/06/become-an-open-seattle-lead-organizer) and the results of our activities tonight will help guide that work.",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "docpage publish README.md openseattle2017",
+    "start": "docpage start -w README.md"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "docpage": "^1.1.3"
+  }
+}
